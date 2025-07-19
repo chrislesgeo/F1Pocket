@@ -1,0 +1,30 @@
+name: strategist
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - polars
+  - duckdb
+  - fastf1
+  - lightgbm
+  - catboost
+  - pytorch::pytorch
+  - pytorch::torchaudio
+  - pytorch::torchvision
+  - scikit-learn
+  - streamlit
+  - altair
+  - openai
+  - ipykernel
+  - jupyterlab
+  # format/lint (optional)
+  - black
+  - ruff
+  - pre-commit
+  - pip
+  - pip:
+      - tiktoken          # for cheap token counting 

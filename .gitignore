@@ -1,0 +1,14 @@
+# data artefacts
+/data/
+/models/
+/results/
+/reports/
+/cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# OS
+.DS_Store
